@@ -1,0 +1,92 @@
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGlobe, FaInstagram, FaLocationPin } from "react-icons/fa6";
+import { SiGmail } from "react-icons/si";
+
+function FairuzRafi() {
+  return (
+    <>
+      <div>
+        <div className="w-full bg-white p-2">
+          <div className="flex items-center justify-center">
+            <Image src="/image/logoamital.jpg" width={100} height={100} />
+          </div>
+        </div>
+        <div className="items-center justify-center flex">
+          <div className="absolute mt-40">
+            <Image
+              src="/image/potopai2.png"
+              className="rounded-full"
+              width={100}
+              height={10}
+            />
+          </div>
+          <Image
+            src="/image/af7761fa4efe68000e5fc6019a8537b7.jpg"
+            width={1000}
+            height={1000}
+          />
+        </div>
+        <div className="flex flex-col items-center justify-center font-popin pt-10">
+          <h1 className="font-bold">Fairuz Rafi Yadisa</h1>
+          <h1>Cloud Developer</h1>
+        </div>
+        <h1 className="flex items-center justify-center font-popin">
+          <FaLocationPin size={15} />
+          Jakarta • Aku Mitra Digital
+        </h1>
+        <h1 className="flex text-center items-center justify-center p-5 font-popin">
+          Hello, i'm Fairuz Rafi As a Cloud Developer at PT Aku Mitra Digital,
+          currently i'm using Javascript as my main programming language.
+        </h1>
+        <div className="flex items-center justify-center">
+          <div className="grid grid-cols-4 gap-5 mt-10">
+            <div className="bg-white border rounded-full p-2 w-[45px] flex items-center justify-center">
+              <Link
+                href="https://www.linkedin.com/in/fairuz-rafi-5a4970234"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin size={25} />
+              </Link>
+            </div>
+            <div className="bg-white border rounded-full p-2 w-[45px] flex items-center justify-center">
+              <Link
+                href="https://www.amital.co.id/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGlobe size={25} />
+              </Link>
+            </div>
+            <div className="bg-white border rounded-full p-2 w-[45px] flex items-center justify-center">
+              <Link
+                href="https://www.instagram.com/akumitradigital/?hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram size={25} />
+              </Link>
+            </div>
+            <div className="bg-white border rounded-full p-2 w-[45px] flex items-center justify-center">
+              <Link
+                href="mailto:fairuz.rafi@amital.co.id"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SiGmail size={25} />
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="flex items-center justify-center pt-16 font-popin">
+          © {new Date().getFullYear()} Aku Mitra Digital
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default FairuzRafi;
