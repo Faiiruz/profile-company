@@ -38,8 +38,8 @@ function FairuzRafi() {
           Jakarta • Aku Mitra Digital
         </h1>
         <h1 className="flex text-center items-center justify-center p-5 font-popin">
-          Hello, i'm Fairuz Rafi As a Cloud Developer at PT Aku Mitra Digital,
-          currently i'm using Javascript as my main programming language.
+          Hello, im Fairuz Rafi As a Cloud Developer at PT Aku Mitra Digital,
+          currently im using Javascript as my main programming language.
         </h1>
         <div className="flex items-center justify-center">
           <div className="grid grid-cols-4 gap-5 mt-10">
