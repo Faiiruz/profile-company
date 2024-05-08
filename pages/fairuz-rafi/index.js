@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 import { FaGlobe, FaInstagram, FaLocationPin } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 
@@ -29,7 +29,7 @@ function FairuzRafi() {
             height={1000}
           />
         </div>
-        <div className="flex flex-col items-center justify-center font-popin pt-10">
+        <div className="flex flex-col items-center justify-center font-popin pt-12">
           <h1 className="font-bold">Fairuz Rafi Yadisa</h1>
           <h1>Cloud Developer</h1>
         </div>
@@ -38,11 +38,26 @@ function FairuzRafi() {
           Jakarta • Aku Mitra Digital
         </h1>
         <h1 className="flex text-center items-center justify-center p-5 font-popin">
-          Hello, im Fairuz Rafi As a Cloud Developer at PT Aku Mitra Digital,
-          currently im using Javascript as my main programming language.
+          PT Aku Mitra Digital is an official Google, Alibaba, Huawei and AWS
+          Partner for Services, Cloud migration. Founded by IT veterans, PT Aku
+          Mitra Digital will bring rich experience from their previous projects
+          in implementing and supporting IT customers in Indonesia.
         </h1>
+        <div className="flex items-center justify-center px-10">
+          <div className="bg-blue-500 w-full rounded-lg text-center p-2">
+            <a
+              href="Company Profile - Aku Mitra Digital V12 (1).pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+              className="font-popin"
+            >
+              Save Our Company Profile
+            </a>
+          </div>
+        </div>
         <div className="flex items-center justify-center">
-          <div className="grid grid-cols-4 gap-5 mt-10">
+          <div className="grid grid-cols-3 gap-10 mt-10">
             <div className="bg-white border rounded-full p-2 w-[45px] flex items-center justify-center">
               <Link
                 href="https://www.linkedin.com/in/fairuz-rafi-5a4970234"
@@ -77,6 +92,24 @@ function FairuzRafi() {
                 rel="noopener noreferrer"
               >
                 <SiGmail size={25} />
+              </Link>
+            </div>
+            <div className="bg-white border rounded-full p-2 w-[45px] flex items-center justify-center">
+              <Link
+                href="tel:+62215706909"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaPhoneAlt size={25} />
+              </Link>
+            </div>
+            <div className="bg-white border rounded-full p-2 w-[45px] flex items-center justify-center">
+              <Link
+                href="https://wa.me/6289635672502"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaWhatsapp size={25} />
               </Link>
             </div>
           </div>
