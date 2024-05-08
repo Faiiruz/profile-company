@@ -46,7 +46,7 @@ function FairuzRafi() {
         <div className="flex items-center justify-center px-10">
           <div className="bg-blue-500 w-full rounded-lg text-center p-2">
             <a
-              href="Company Profile - Aku Mitra Digital V12 (1).pdf"
+              href="Company Profile - Aku Mitra Digital.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download
