@@ -16,8 +16,9 @@ function FairuzRafi() {
         </div>
         <div className="items-center justify-center flex">
           <div className="absolute mt-40">
-            <Image
+            <img
               src="/image/potopai2.png"
+              alt="Potopai"
               className="rounded-full"
               width={100}
               height={10}
