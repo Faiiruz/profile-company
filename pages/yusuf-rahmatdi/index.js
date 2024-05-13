@@ -17,7 +17,7 @@ function Yusuf() {
         <div className="items-center justify-center flex">
           <div className="absolute mt-40">
             <img
-              src="/image/danang.png"
+              src="/image/yusuf.png"
               alt="Potopai"
               className="rounded-full"
               width={150}
@@ -57,7 +57,7 @@ function Yusuf() {
           <div className="grid grid-cols-3 gap-10 mt-10">
             <div className="bg-white border rounded-full p-2 w-[45px] flex items-center justify-center">
               <Link
-                href="https://www.linkedin.com/in/danangadi"
+                href="https://www.linkedin.com/in/yusuf-rahmatdi-ba3a3a20a/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
