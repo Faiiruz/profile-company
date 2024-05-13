@@ -17,18 +17,14 @@ function FairuzRafi() {
         <div className="items-center justify-center flex">
           <div className="absolute mt-40">
             <img
-              src="/image/potopai2.png"
+              src="/image/pai2.png"
               alt="Potopai"
               className="rounded-full"
-              width={100}
+              width={150}
               height={10}
             />
           </div>
-          <Image
-            src="/image/af7761fa4efe68000e5fc6019a8537b7.jpg"
-            width={1000}
-            height={1000}
-          />
+          <Image src="/image/bg-giu2.jpg" width={1000} height={1000} />
         </div>
         <div className="flex flex-col items-center justify-center font-popin pt-12">
           <h1 className="font-bold">Fairuz Rafi Yadisa</h1>

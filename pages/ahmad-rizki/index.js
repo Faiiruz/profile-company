@@ -5,7 +5,7 @@ import { FaLinkedin, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 import { FaGlobe, FaInstagram, FaLocationPin } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 
-function Michael() {
+function Ariz() {
   return (
     <>
       <div>
@@ -15,9 +15,9 @@ function Michael() {
           </div>
         </div>
         <div className="items-center justify-center flex">
-          <div className="absolute mt-40">
+          <div className="absolute mt-44">
             <Image
-              src="/image/pakmike.jpg"
+              src="/image/masriz2.png"
               className="rounded-full"
               width={150}
               height={10}
@@ -26,8 +26,8 @@ function Michael() {
           <Image src="/image/bg-giu2.jpg" width={1000} height={1000} />
         </div>
         <div className="flex flex-col items-center justify-center font-popin pt-12">
-          <h1 className="font-bold">Michael Pudji Utomo</h1>
-          <h1>Chief Technology Officer</h1>
+          <h1 className="font-bold">Ahmad Rizki</h1>
+          <h1>Cloud Solution Architect</h1>
         </div>
         <h1 className="flex items-center justify-center font-popin">
           <FaLocationPin size={15} />
@@ -56,7 +56,7 @@ function Michael() {
           <div className="grid grid-cols-3 gap-10 mt-10">
             <div className="bg-white border rounded-full p-2 w-[45px] flex items-center justify-center">
               <Link
-                href="https://www.linkedin.com/in/michaelutomo"
+                href="https://www.linkedin.com/in/ahmad-rizki"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -83,7 +83,7 @@ function Michael() {
             </div>
             <div className="bg-white border rounded-full p-2 w-[45px] flex items-center justify-center">
               <Link
-                href="mailto:michael.utomo@amital.co.id"
+                href="mailto:ahmad.rizki@amital.co.id"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -101,7 +101,7 @@ function Michael() {
             </div>
             <div className="bg-white border rounded-full p-2 w-[45px] flex items-center justify-center">
               <Link
-                href="https://wa.me/628111387978"
+                href="https://wa.me/6281384709515"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -118,4 +118,4 @@ function Michael() {
   );
 }
 
-export default Michael;
+export default Ariz;
